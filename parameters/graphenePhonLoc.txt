@@ -1,0 +1,13 @@
+1                       //phonMediated
+0			            //NFreq
+2500			            //NK
+50                      //Nx
+50                      //Ny
+2			            //NBands
+0.			            //Beta
+0.                      //hubbardU
+0.	                    //alphaSeed
+0			            //maxIterHF
+data/input/grapheneN50D14d5.h5
+data/input/boxCouplingN50d5.h5
+

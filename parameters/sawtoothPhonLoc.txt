@@ -1,0 +1,13 @@
+1                       //phonMediated
+200			            //NFreq
+1000			            //NK
+1000                      //Nx
+1                      //Ny
+2			            //NBands
+100.			            //Beta
+0.                      //hubbardU
+0.1	                    //alphaSeed
+2000			            //maxIterHF
+data/input/sawtoothBandN1000d0.h5
+data/input/placeholderLMCN1000nB2.h5
+

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="EliashbergChain"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="icc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/chris/academics/PhD/codebase/MigdalEliashbergReference/cmake-build-run"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/chris/academics/PhD/codebase/MigdalEliashbergReference/cmake-build-run/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/chris/academics/PhD/codebase/MigdalEliashbergReference/cmake-build-run/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/chris/academics/PhD/codebase/MigdalEliashbergReference/cmake-build-run/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/chris/academics/PhD/codebase/MigdalEliashbergReference/cmake-build-run/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/chris/academics/PhD/codebase/MigdalEliashbergReference/cmake-build-run"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/chris/academics/PhD/codebase/MigdalEliashbergReference/cmake-build-run/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/chris/academics/PhD/codebase/MigdalEliashbergReference/cmake-build-run/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/chris/academics/PhD/codebase/MigdalEliashbergReference/cmake-build-run/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/chris/academics/PhD/codebase/MigdalEliashbergReference/cmake-build-run/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/chris/academics/PhD/codebase/MigdalEliashbergReference/cmake-build-run"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/chris/academics/PhD/codebase/MigdalEliashbergReference/cmake-build-run/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/chris/academics/PhD/codebase/MigdalEliashbergReference/cmake-build-run/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/chris/academics/PhD/codebase/MigdalEliashbergReference/cmake-build-run/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/chris/academics/PhD/codebase/MigdalEliashbergReference/cmake-build-run/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/home/chris/academics/PhD/codebase/MigdalEliashbergReference/cmake-build-run"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/chris/academics/PhD/codebase/MigdalEliashbergReference/cmake-build-run/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/chris/academics/PhD/codebase/MigdalEliashbergReference/cmake-build-run/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/chris/academics/PhD/codebase/MigdalEliashbergReference/cmake-build-run/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/chris/academics/PhD/codebase/MigdalEliashbergReference/cmake-build-run/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EliashbergChain.out">
+				<Option output="/home/chris/academics/PhD/codebase/MigdalEliashbergReference/cmake-build-run/EliashbergChain.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/chris/academics/PhD/codebase/MigdalEliashbergReference/cmake-build-run"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="icc"/>
+				<Compiler>
+					<Add directory="/home/chris/academics/PhD/codebase/MigdalEliashbergReference/cmake-build-run"/>
+					<Add directory="/home/chris/academics/PhD/codebase/MigdalEliashbergReference"/>
+					<Add directory="/home/chris/academics/PhD/codebase/MigdalEliashbergReference/./include"/>
+					<Add directory="/home/chris/academics/PhD/codebase/MigdalEliashbergReference/./include/processing"/>
+					<Add directory="/home/chris/academics/PhD/codebase/MigdalEliashbergReference/./parameters"/>
+					<Add directory="/usr/include/hdf5/serial"/>
+					<Add directory="/opt/intel/oneapi/vpl/2022.0.0/include"/>
+					<Add directory="/opt/intel/oneapi/tbb/2021.5.1/env/../include"/>
+					<Add directory="/opt/intel/oneapi/mpi/2021.5.1//include"/>
+					<Add directory="/opt/intel/oneapi/mkl/2022.0.2/include"/>
+					<Add directory="/opt/intel/oneapi/ippcp/2021.5.1/include"/>
+					<Add directory="/opt/intel/oneapi/ipp/2021.5.2/include"/>
+					<Add directory="/opt/intel/oneapi/dpl/2021.6.0/linux/include"/>
+					<Add directory="/opt/intel/oneapi/dpcpp-ct/2022.0.0/include"/>
+					<Add directory="/opt/intel/oneapi/dev-utilities/2021.5.2/include"/>
+					<Add directory="/opt/intel/oneapi/dal/2021.5.3/include"/>
+					<Add directory="/opt/intel/oneapi/ccl/2021.5.1/include/cpu_gpu_dpcpp"/>
+					<Add directory="/opt/intel/oneapi/clck/2021.5.1/include"/>
+					<Add directory="/opt/intel/oneapi/compiler/2022.0.2/linux/bin/intel64/../../compiler/include/intel64"/>
+					<Add directory="/opt/intel/oneapi/compiler/2022.0.2/linux/bin/intel64/../../compiler/include/icc"/>
+					<Add directory="/opt/intel/oneapi/compiler/2022.0.2/linux/bin/intel64/../../compiler/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/include/"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/chris/academics/PhD/codebase/MigdalEliashbergReference/cmake-build-run/Makefile&quot;  VERBOSE=1 EliashbergChain.out"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/chris/academics/PhD/codebase/MigdalEliashbergReference/cmake-build-run/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/chris/academics/PhD/codebase/MigdalEliashbergReference/cmake-build-run/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/chris/academics/PhD/codebase/MigdalEliashbergReference/cmake-build-run/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EliashbergChain.out/fast">
+				<Option output="/home/chris/academics/PhD/codebase/MigdalEliashbergReference/cmake-build-run/EliashbergChain.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/chris/academics/PhD/codebase/MigdalEliashbergReference/cmake-build-run"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="icc"/>
+				<Compiler>
+					<Add directory="/home/chris/academics/PhD/codebase/MigdalEliashbergReference/cmake-build-run"/>
+					<Add directory="/home/chris/academics/PhD/codebase/MigdalEliashbergReference"/>
+					<Add directory="/home/chris/academics/PhD/codebase/MigdalEliashbergReference/./include"/>
+					<Add directory="/home/chris/academics/PhD/codebase/MigdalEliashbergReference/./include/processing"/>
+					<Add directory="/home/chris/academics/PhD/codebase/MigdalEliashbergReference/./parameters"/>
+					<Add directory="/usr/include/hdf5/serial"/>
+					<Add directory="/opt/intel/oneapi/vpl/2022.0.0/include"/>
+					<Add directory="/opt/intel/oneapi/tbb/2021.5.1/env/../include"/>
+					<Add directory="/opt/intel/oneapi/mpi/2021.5.1//include"/>
+					<Add directory="/opt/intel/oneapi/mkl/2022.0.2/include"/>
+					<Add directory="/opt/intel/oneapi/ippcp/2021.5.1/include"/>
+					<Add directory="/opt/intel/oneapi/ipp/2021.5.2/include"/>
+					<Add directory="/opt/intel/oneapi/dpl/2021.6.0/linux/include"/>
+					<Add directory="/opt/intel/oneapi/dpcpp-ct/2022.0.0/include"/>
+					<Add directory="/opt/intel/oneapi/dev-utilities/2021.5.2/include"/>
+					<Add directory="/opt/intel/oneapi/dal/2021.5.3/include"/>
+					<Add directory="/opt/intel/oneapi/ccl/2021.5.1/include/cpu_gpu_dpcpp"/>
+					<Add directory="/opt/intel/oneapi/clck/2021.5.1/include"/>
+					<Add directory="/opt/intel/oneapi/compiler/2022.0.2/linux/bin/intel64/../../compiler/include/intel64"/>
+					<Add directory="/opt/intel/oneapi/compiler/2022.0.2/linux/bin/intel64/../../compiler/include/icc"/>
+					<Add directory="/opt/intel/oneapi/compiler/2022.0.2/linux/bin/intel64/../../compiler/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/include/"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/chris/academics/PhD/codebase/MigdalEliashbergReference/cmake-build-run/Makefile&quot;  VERBOSE=1 EliashbergChain.out/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/chris/academics/PhD/codebase/MigdalEliashbergReference/cmake-build-run/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/chris/academics/PhD/codebase/MigdalEliashbergReference/cmake-build-run/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/chris/academics/PhD/codebase/MigdalEliashbergReference/cmake-build-run/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/chris/academics/PhD/codebase/MigdalEliashbergReference/include/fileHandling.h">
+			<Option target="EliashbergChain.out"/>
+		</Unit>
+		<Unit filename="/home/chris/academics/PhD/codebase/MigdalEliashbergReference/include/processing/localOneGap.h">
+			<Option target="EliashbergChain.out"/>
+		</Unit>
+		<Unit filename="/home/chris/academics/PhD/codebase/MigdalEliashbergReference/parameters/globals.h">
+			<Option target="EliashbergChain.out"/>
+		</Unit>
+		<Unit filename="/home/chris/academics/PhD/codebase/MigdalEliashbergReference/src/eliashbergChain.cpp">
+			<Option target="EliashbergChain.out"/>
+		</Unit>
+		<Unit filename="/home/chris/academics/PhD/codebase/MigdalEliashbergReference/src/fileHandling.cpp">
+			<Option target="EliashbergChain.out"/>
+		</Unit>
+		<Unit filename="/home/chris/academics/PhD/codebase/MigdalEliashbergReference/src/processing/localOneGap.cpp">
+			<Option target="EliashbergChain.out"/>
+		</Unit>
+		<Unit filename="/home/chris/academics/PhD/codebase/MigdalEliashbergReference/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
