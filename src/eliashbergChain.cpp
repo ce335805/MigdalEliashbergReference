@@ -25,6 +25,7 @@ int main() {
   std::cout << "g = " << couplingG << std::endl;
   //Frequency of surface mode of STO
   const double Om = 0.016125725310656633;
+  //const double Om = 0.001125725310656633;
   //chemical potential in eV
   const double mu = -0.015;
   

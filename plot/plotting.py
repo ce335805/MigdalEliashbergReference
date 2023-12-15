@@ -346,7 +346,6 @@ def main():
         "./../data/results/tcAsOfOmOneGapShortBos100.hdf5",
     ]
     plotTcAsOfOmega(filenames)
-    exit()
 
     filename = "./../data/results/tcAsOfNphOneGapBos297.hdf5"
     plotPhaseDiagram(filename)

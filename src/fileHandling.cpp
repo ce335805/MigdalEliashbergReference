@@ -214,6 +214,7 @@ double readInDouble(const std::string &fileName, const std::string &dataName) {
  * @param fileName of to be read data
  */
 void readInComplex2DArray(std::vector<std::complex<double>> &readInArray, const std::string &fileName) {
+  std::cout << "Filename='" << fileName << std::endl;
   H5::H5File file(fileName, H5F_ACC_RDONLY);
 
   H5::DataSet realDataset = file.openDataSet("Real");
