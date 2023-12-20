@@ -4,8 +4,10 @@ This repository contains the code to solve the coupled gap equations derived in 
 
 ## Installation
 
-For executing the code a `python` interpreter as well as `cmake`,a `hdf5` installation and intel's MKL are needed.
+For executing the code an up-to-date `python` interpreter as well as `cmake`,a `hdf5` installation and intel's MKL are needed.
+We performed computations with python 3.9.7, cmake 3.16.3, hdf5 1.10.4 and as the MKL version 2021.10.0.
 The preferred `c++` compile may be configured in the `CMakeLists.txt` file in the top directory.
+We used intels icc compiler version 2021.10.0 but a newer compiler should work as well.
 Given a suitable configuration of all needed packages (finding hdf5 libraries and MKL) the installation using cmake should take less than a minute on a standard laptop.
 
 ## Running
