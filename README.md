@@ -8,6 +8,7 @@ For executing the code an up-to-date `python` interpreter as well as `cmake`,a `
 We performed computations with python 3.9.7, cmake 3.16.3, hdf5 1.10.4 and as the MKL version 2021.10.0.
 The preferred `c++` compile may be configured in the `CMakeLists.txt` file in the top directory.
 We used intels icc compiler version 2021.10.0 but a newer compiler should work as well.
+We tested the code on WSL with Windows11 and Ubuntu as well as a pure linux installation on an HPC system.
 Given a suitable configuration of all needed packages (finding hdf5 libraries and MKL) the installation using cmake should take less than a minute on a standard laptop.
 
 ## Running
